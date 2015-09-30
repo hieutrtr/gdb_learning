@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-#include <cstdlib> 
+#include <cstdlib>
 
 int main()
 {
 	const char *ctemp = "Paras";
-	char *temp = malloc(sizeof(ctemp));
+	char *temp = (char*)malloc(sizeof(ctemp));
 	strcpy(temp,ctemp);
 
 	int i;

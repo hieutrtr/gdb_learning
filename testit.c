@@ -4,9 +4,9 @@
 
 int main()
 {
-	const char *ctemp = "Paras";
-	char *temp = (char*)malloc(sizeof(ctemp));
-	strcpy(temp,ctemp);
+	const char *temp = "Paras";
+	// char *temp = (char*)malloc(sizeof(ctemp));
+	// strcpy(temp,ctemp);
 
 	int i;
 	i=0;

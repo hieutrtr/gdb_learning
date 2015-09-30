@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	char *temp = "Paras";
 
@@ -12,5 +12,5 @@ void main()
 	for (i =0 ; i < 5 ; i++ )
 		printf("%c\n", temp[i]);
 
-
+	return 0;
 }

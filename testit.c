@@ -4,7 +4,7 @@
 
 int main()
 {
-	const char *temp = "Paras";
+	char *temp = "Paras"; // new C doesnt let you down
 	// char *temp = (char*)malloc(sizeof(ctemp));
 	// strcpy(temp,ctemp);
 

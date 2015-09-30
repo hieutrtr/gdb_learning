@@ -2,7 +2,9 @@
 
 int main()
 {
-	char *temp = "Paras";
+	const char *ctemp = "Paras";
+	char *temp = malloc(sizeof(ctemp));
+	strcpy(temp,ctemp);
 
 	int i;
 	i=0;
